@@ -1,0 +1,68 @@
+.container {
+    display: grid;
+        grid-template-areas: 
+                                "h k d m rk dm c"
+                                "h v w e rk dm c"
+                                "n v w e rk dm c"
+                                "n r g q rk dm c";
+
+    grid-gap: 10px;
+    grid-template-columns: 20% 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+}
+.h {
+    background-color: blueviolet;
+    grid-area: h;
+
+}
+.n {
+    background-color: aquamarine;   
+    grid-area: n; 
+}
+.k {
+    background-color: brown;
+    grid-area: k;
+    height: 100px;
+}
+.d {
+    background-color: cadetblue;
+    grid-area: d;
+}
+.m {
+    background-color: rgb(95, 160, 95);
+    grid-area: m;
+}
+.rk {
+    background-color: rgb(104, 75, 33);
+    grid-area: rk;
+}
+.dm {
+    background-color: rgb(157, 138, 224);
+    grid-area: dm;
+}
+.c {
+    background-color: rgb(97, 218, 107);
+    grid-area: c;
+}
+.v {
+    background-color: rgb(234, 236, 63);
+    grid-area: v;
+}
+.w {
+    background-color: rgb(47, 50, 228);
+    grid-area: w;
+}
+.e {
+    background-color: crimson;
+    grid-area: e;
+}
+.r {
+    background-color: darkgreen;
+    grid-area: r;
+}.g {
+    background-color: fuchsia;
+    grid-area: g;
+}.q {
+    background-color: hotpink;
+    grid-area: q;
+}
